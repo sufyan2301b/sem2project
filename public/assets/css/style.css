@@ -1,0 +1,133 @@
+*
+{
+    font-family: var(--raleway);
+    scroll-behavior: smooth;
+}
+
+.banr-sldr {
+    min-height: 90vh !important;
+}
+
+
+.banr-sldr .carousel-control-next, .banr-sldr .carousel-control-prev{
+    background-color: rgba(0, 0, 0, 0.589) !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 50%;
+
+}
+
+.carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-0%, -50%);
+}
+
+.banr-sldr .carousel-control-next{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(-0%, -50%);
+}
+
+.banr-sldr  .carousel-indicators li{
+    background-color: rgba(0, 0, 0, 0.589) !important;
+}
+
+.carousel-item{
+    position: relative !important;
+}
+
+.banr-sldr-img{
+
+    width: 100% !important;
+    min-height: 90vh !important;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.banr-sldr-rw{
+    margin: 0px 5%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.banr-sldr-col{
+    width: 50%;
+    /* margin: 0 auto; */
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.banr-sldr-col2{
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center !important;
+    color: #ffffff !important;
+}
+.bnr-btn-1{
+background-color:#BB8E70 !important;
+color: #ffffff !important;
+}
+
+
+
+.overlay-wrpr{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+background-color: #00000028;
+
+}
+
+.zindex1{
+    z-index: 111 !important;
+}
+
+
+
+/* ---product css */
+.bg-none{
+background:transparent !important;
+}
+
+.card-footer{
+    border-top: none !important;
+}
+.boder{
+
+    border-left: 1 !important;
+}
+
+.crd-img-wrpr{
+    background: #F5F5F5 !important;
+}
+
+  .card-img-top{
+    max-width: 50%  !important;
+    margin: 0 auto;
+    
+    
+  } 
+  .pdr{
+
+    background-color:#BB8E70 !important;
+color: #ffffff !important;
+  } /* end product */
+
+
+  .bnr3{
+    width: 100% !important;
+  }
+.img-fluid{
+
+    width: 100% !important;
+}
